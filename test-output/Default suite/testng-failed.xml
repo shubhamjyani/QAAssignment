@@ -5,7 +5,8 @@
     <classes>
       <class name="recruitCRM.LoginPageTest">
         <methods>
-          <include name="sampleTest"/>
+          <include name="sampleTest" invocation-numbers="1"/>
+          <include name="driverInit"/>
         </methods>
       </class> <!-- recruitCRM.LoginPageTest -->
     </classes>
