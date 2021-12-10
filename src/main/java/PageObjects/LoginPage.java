@@ -30,5 +30,20 @@ public class LoginPage {
 	
 	@FindBy(tagName="h2")
 	public WebElement introText;
+	
+	@FindBy(xpath="//h1[@class=\"Logintitle\"]")
+	public WebElement loginTitle;
+	
+	@FindBy(xpath="//div[@class='intercom-crher1.e4nbtsn3')]")
+	public WebElement intercomLauncher;
+	
+	@FindBy(xpath="//form/div[1]/p")
+	public WebElement emailRequiredText;
+	
+	@FindBy(xpath="//form/div[2]/p")
+	public WebElement passwordRequiredText;
+	
+	@FindBy(xpath="//div[@class='notices is-top']")
+	public WebElement loginFaileMessage;
 
 }

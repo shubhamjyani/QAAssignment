@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="recruitCRM.LoginPageTest">
+      <class name="recruitCRM.SpiceJetAutomation">
         <methods>
-          <include name="sampleTest" invocation-numbers="1"/>
-          <include name="driverInit"/>
+          <include name="closeDriver"/>
+          <include name="driverinitialize"/>
+          <include name="radioButton"/>
         </methods>
-      </class> <!-- recruitCRM.LoginPageTest -->
+      </class> <!-- recruitCRM.SpiceJetAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

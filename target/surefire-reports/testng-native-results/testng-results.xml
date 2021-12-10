@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-10T18:33:14 IST" name="Command line suite" finished-at="2021-12-10T18:34:08 IST" duration-ms="53754">
+    <groups>
+    </groups>
+    <test started-at="2021-12-10T18:33:14 IST" name="Command line test" finished-at="2021-12-10T18:34:08 IST" duration-ms="53754">
+      <class name="recruitCRM.LoginPageTest">
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:21 IST" name="driverInit" finished-at="2021-12-10T18:33:26 IST" duration-ms="4479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="elementVisibleTest()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:26 IST" name="elementVisibleTest" finished-at="2021-12-10T18:33:26 IST" duration-ms="646" status="FAIL">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[expected:<false> but was:<true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: expected:<false> but was:<true>
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.failNotEquals(Assert.java:282)
+at junit.framework.Assert.assertEquals(Assert.java:64)
+at junit.framework.Assert.assertEquals(Assert.java:149)
+at junit.framework.Assert.assertEquals(Assert.java:155)
+at recruitCRM.LoginPageTest.elementVisibleTest(LoginPageTest.java:70)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementVisibleTest -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:26 IST" name="driverClose" finished-at="2021-12-10T18:33:27 IST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:27 IST" name="driverInit" finished-at="2021-12-10T18:33:31 IST" duration-ms="4226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="forgotPasswordTest()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:31 IST" name="forgotPasswordTest" finished-at="2021-12-10T18:33:32 IST" duration-ms="1018" status="FAIL">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<Forgot your password?> but was:<Login to Recruit CRM>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<Forgot your password?> but was:<Login to Recruit CRM>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at recruitCRM.LoginPageTest.forgotPasswordTest(LoginPageTest.java:99)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordTest -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:32 IST" name="driverClose" finished-at="2021-12-10T18:33:33 IST" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:33 IST" name="driverInit" finished-at="2021-12-10T18:33:37 IST" duration-ms="3901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="loginTitleTest()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:37 IST" name="loginTitleTest" finished-at="2021-12-10T18:33:39 IST" duration-ms="1553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTitleTest -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:39 IST" name="driverClose" finished-at="2021-12-10T18:33:39 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:39 IST" name="driverInit" finished-at="2021-12-10T18:33:43 IST" duration-ms="3965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="positiveLoginTest()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:43 IST" name="positiveLoginTest" finished-at="2021-12-10T18:33:47 IST" duration-ms="3497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:47 IST" name="driverClose" finished-at="2021-12-10T18:33:48 IST" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:49 IST" name="driverInit" finished-at="2021-12-10T18:33:53 IST" duration-ms="3999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="sampleTest(java.lang.String,java.lang.String)[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:53 IST" name="sampleTest" data-provider="logindata" finished-at="2021-12-10T18:33:55 IST" duration-ms="1827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shubhamjyani2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:55 IST" name="driverClose" finished-at="2021-12-10T18:33:55 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:55 IST" name="driverInit" finished-at="2021-12-10T18:33:59 IST" duration-ms="3985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="sampleTest(java.lang.String,java.lang.String)[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:33:59 IST" name="sampleTest" data-provider="logindata" finished-at="2021-12-10T18:34:01 IST" duration-ms="1824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[id@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a3jKkxQB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:34:01 IST" name="driverClose" finished-at="2021-12-10T18:34:02 IST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:34:02 IST" name="driverInit" finished-at="2021-12-10T18:34:06 IST" duration-ms="3680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="sampleTest(java.lang.String,java.lang.String)[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:34:06 IST" name="sampleTest" data-provider="logindata" finished-at="2021-12-10T18:34:07 IST" duration-ms="1536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:recruitCRM.LoginPageTest@7f9fcf7f]" started-at="2021-12-10T18:34:07 IST" name="driverClose" finished-at="2021-12-10T18:34:08 IST" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- recruitCRM.LoginPageTest -->
+      <class name="recruitCRM.LegalTermsPageTest">
+        <test-method is-config="true" signature="driverInit()[pri:0, instance:recruitCRM.LegalTermsPageTest@525b461a]" started-at="2021-12-10T18:33:14 IST" name="driverInit" finished-at="2021-12-10T18:33:19 IST" duration-ms="5199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInit -->
+        <test-method signature="languageDropdownTest()[pri:0, instance:recruitCRM.LegalTermsPageTest@525b461a]" started-at="2021-12-10T18:33:19 IST" name="languageDropdownTest" finished-at="2021-12-10T18:33:20 IST" duration-ms="1043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageDropdownTest -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:recruitCRM.LegalTermsPageTest@525b461a]" started-at="2021-12-10T18:33:21 IST" name="driverClose" finished-at="2021-12-10T18:33:21 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- recruitCRM.LegalTermsPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

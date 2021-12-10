@@ -1,0 +1,6 @@
+recruitCRM\Base.class
+PageObjects\ProfilePage.class
+recruitCRM\App.class
+PageObjects\LegalTermsPage.class
+PageObjects\LoginPage.class
+PageObjects\ForgotPasswordPage.class

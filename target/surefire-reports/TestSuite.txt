@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 54.395 sec <<< FAILURE!
+elementVisibleTest(recruitCRM.LoginPageTest)  Time elapsed: 0.649 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<false> but was:<true>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:149)
+	at junit.framework.Assert.assertEquals(Assert.java:155)
+	at recruitCRM.LoginPageTest.elementVisibleTest(LoginPageTest.java:70)
+
+forgotPasswordTest(recruitCRM.LoginPageTest)  Time elapsed: 1.019 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<Forgot your password?> but was:<Login to Recruit CRM>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at recruitCRM.LoginPageTest.forgotPasswordTest(LoginPageTest.java:99)
+
